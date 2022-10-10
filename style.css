@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.QR-container {
+  background: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 500px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.QR-img {
+  width: 290px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.QR-text {
+  padding: 25px;
+}
+.QR-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.QR-description {
+  margin-top: 20px;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+.attribution {
+  padding: 4px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
